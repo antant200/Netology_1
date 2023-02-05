@@ -3,6 +3,8 @@ public class Main {
         int[] sales = {10, 115, 4, 1101};
         SalesManager salesManager = new SalesManager(sales);
         System.out.println(salesManager.max());
+        System.out.println(salesManager.min());
+        System.out.println(salesManager.cropped());
     }
 }
 
